@@ -2,9 +2,9 @@
 
 
 
-Source: https://www.youtube.com/watch?v=I2UBjN5ER4s
+Inspiration: https://www.youtube.com/watch?v=I2UBjN5ER4s
 
-Up to 12:49 - 14:54min ...
+Up to 32:51min ...
 
 
 
