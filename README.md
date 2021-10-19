@@ -2,11 +2,17 @@
 
 
 
-Inspiration: https://www.youtube.com/watch?v=I2UBjN5ER4s
+Inspiration: 
 
-Up to 32:51min ...
+https://www.youtube.com/watch?v=I2UBjN5ER4s
+
+Up to 51:11min ...
 
 
+
+https://www.youtube.com/watch?v=c453h7Mk3hc
+
+Up to ...
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
