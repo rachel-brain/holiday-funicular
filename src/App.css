@@ -2,11 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
 :root {
   --primary: #fff;
   --grey: #242424;
+  --black: #000;
   --pastry: #ffdc73;
   --salmon: #ff6f69;
   font-family: 'Nanum Gothic', sans-serif;
@@ -80,8 +82,75 @@ font-size: 3rem;
   font-size: 100px;
 }
 
-.App {
-  text-align: center;
+h1 {
+  color: var(--black);
+  font-size: 35px;
+  line-height: 2;
+  padding-left: 10px;
 }
 
+h2 {
+  color: var(--black);
+  font-size: 30px;
+  line-height: 2;
+  padding-left: 10px;
+}
 
+h3 {
+  color: var(--black);
+  font-size: 30px;
+  font-style: italic;
+  line-height: 1.5;
+  padding-left: 10px;
+}
+
+h4 {
+  margin-top: 15px;
+  color: var(--pastry);
+  background: var(--black);
+  font-size: 20px;
+  line-height: 2;
+}
+
+p {
+  color: var(--salmon);
+  font-size: 25px;
+  line-height: 1.5;
+  padding-left: 10px;
+}
+
+.about-blurb,
+.range-blurb,
+.delivery-blurb,
+.testimonial-blurb,
+.who-blurb,
+.form-blurb {
+  color: var(--salmon);
+  font-size: 25px;
+  line-height: 1.5;
+  padding-left: 10px;
+}
+
+.about-list {
+  color: var(--salmon);
+  font-size: 25px;
+  line-height: 1.5;
+  padding-left: 10px;
+  margin-left: 10px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ul li::marker {
+  font-size: 150%;
+  color: var(--salmon);
+}
+
+.photo {
+  margin-left: 20px;
+  border: 1px solid var(--grey);
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 5px;
+  padding: 5px;
+  width: 215px;
+}

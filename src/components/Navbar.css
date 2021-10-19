@@ -1,6 +1,7 @@
 :root {
     --primary: #fff;
     --grey: #242424;
+    --black: #000;
     --pastry: #ffdc73;
     --salmon: #ff6f69;
     font-family: 'Nanum Gothic', sans-serif;
@@ -56,6 +57,7 @@
 }
 
 .nav-item {
+    text-decoration: none;
     height: 80px;
 }
 

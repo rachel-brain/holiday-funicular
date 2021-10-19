@@ -5,9 +5,8 @@ function Footer() {
         <div className='footer'>
             <footer className='py-5 bg-dark fixed-bottom'>
                 <div className='container'>
-                    <p className='m-0 text-center text-white'>
-                        Copyright © Pastry Master 2021
-                    </p>
+                    <h4> © Pastry Master 2021
+                    </h4>
                 </div>
             </footer>
         </div>

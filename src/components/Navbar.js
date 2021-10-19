@@ -5,11 +5,10 @@ import './Navbar.css';
 
 // import ReactDOM from 'react-dom';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faToiletPaperBlank } from '@fortawesome/free-solid-svg-icons';
 // import { faTimes } from '@fortawesome/free-solid-svg-icons';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-// const element = <FontAwesomeIcon icon={faToiletPaperBlank} />
+// const element = <FontAwesomeIcon icon={faTimes} />
 
 // ReactDOM.render(element, document.body)
 
@@ -40,12 +39,6 @@ function Navbar() {
         <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <p>Pastry Master coming soon ...</p>
-                <Link to='/' className='roll-icon' onClick={closeMobileMenu}>
-                    {/* <i className='fas fa-toilet-paper-blank' /> */}
-                    {/* <FontAwesomeIcon icon="faToiletPaperBlank" />      */}
-                    <i className='fa-solid fa-toilet-paper-blank' />
-                </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     {/* <i className={click ? 'fas fa-circle-xmark' : 'fas fa-bars'} /> */}
