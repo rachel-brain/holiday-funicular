@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Navbar from './Navbar';
+import Header from './Header';
+import Footer from './Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -8,7 +10,6 @@ import Delivery from './pages/Delivery';
 import Testimonials from './pages/Testimonials';
 import Who from './pages/Who';
 import Contact from './pages/Contact';
-import Footer from './Footer';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
